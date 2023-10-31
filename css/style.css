@@ -1,0 +1,187 @@
+/* Global Class */
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  Box-sizing: border-box;
+  font-family: 'Titillium Web', sans-serif;
+}
+P{
+font-size: 15px;
+line-height: 17px;
+font-weight: 300;
+}
+section{
+padding: 75px 0px;
+text-align: center;
+}
+.heading{
+font-size: 35px;
+line-height: 35px;
+
+}
+.sub-heading{
+font-size: 22px;
+text-transform: uppercase;
+}
+.underline{
+border-top: 5px solid rgba(0, 0, 0, 0.315);
+width: 7%;
+margin: 10px auto;
+}
+.btn{
+width: 200px;
+    padding: 10px;
+    font-size: 15px;
+    background: tomato;
+    color: white;
+    box-shadow: 0px 0px 4px tomato;
+}
+
+.writing-part{
+margin-bottom: 50px;
+}
+.box-part{
+
+}
+.box{
+padding: 20px;
+}
+/* Layout Classes */
+.container{
+  width: 1140px;
+  margin: auto;
+}
+.rm{
+  float: right;
+}
+.row{
+  width:100%;
+  Float: left;
+}
+[class*="col-3"] {
+  float: right;
+}
+[class*="col-"] {
+  float: left;
+}
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
+
+/* Header part  */
+#header{
+  background-color: #87509c;
+}
+nav{
+  padding: 10px 0px;
+}
+.logo-part{
+  
+}
+.menu-part{
+
+}
+ul{
+text-align: end;
+padding: 10px 0px;
+}
+ul li{
+  list-style: none;
+  display: inline-block;
+}
+ul li a{
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  margin: 0px 10px;
+}
+.header-content{
+  padding: 100px;
+  text-align: center;
+}
+.header-content h1{
+  font-size: 45px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: white;
+}
+.header-content .btn{
+  margin-top: 50px;
+
+}
+/* Service Section  */
+#service{
+  background-color: #17c2a4;
+  color: white;
+}
+#service .btn{
+  background-color: #87509c;
+  box-shadow: 0px 0px 4px #87509c;
+}
+#service .box img{
+  height: 150px;
+}
+/* team Section  */
+#team{
+background-color: #e7f1f8;
+color: #3c4761;
+}
+/* Skill section  */
+#skill{
+  background-color: white;
+color: #3c4761;
+}
+/* PORTFOLIO section  */
+#PORTFOLIO{
+  background-color: #ffdd99;
+}
+#PORTFOLIO.box img{
+  height: 200px;
+}
+/* ABOUT section  */
+#ABOUT{
+  background-color: #d74680;
+  color: white;
+}
+/* TOUCH section  */
+#TOUCH{
+  background-color: #3c5499;
+  color: white;
+}
+form
+{
+  margin-top:  30px;
+}
+label,input
+{
+  display: block;
+  width: 90%;
+  margin: auto;
+  padding: 20px;
+  float: left;
+}
+input
+{
+  background-color: #273a71 ;
+  color: white;
+ font-size: 75;
+}
+label
+{
+  font-size: 50px;
+}
+#footer{
+  background-color: #344b8e;
+  color: white;
+}
+

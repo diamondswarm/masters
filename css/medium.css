@@ -1,0 +1,25 @@
+/* Medium size  */
+@media (min-width:601px) and (max-width:900px){
+  #header{
+    background-color: #50869c;
+  }
+  #service{
+  background-color: #88c217;
+  color: white;
+}
+#team{
+background-color: #c7f2c6;
+color: #3c4761;
+}
+#skill{
+  background-color: #ccb1b1;
+color: #3c4761;
+}
+#PORTFOLIO{
+  background-color: #ff9999;
+}
+#TOUCH{
+  background-color: #3c8b99;
+  color: white;
+}
+}
